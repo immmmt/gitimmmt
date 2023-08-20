@@ -1,0 +1,11 @@
+# 打开文件
+file = open("example.txt", "r")
+
+# 读取文件内容
+content = file.read()
+
+# 关闭文件
+file.close()
+
+# 打印文件内容
+print(content)
